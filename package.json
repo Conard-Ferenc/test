@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "vitepress": "^0.22.3"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
   }
 }
