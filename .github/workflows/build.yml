@@ -25,7 +25,9 @@ jobs:
 
       # 打包
       - name: 打包
-        run: npm run build
+        run: |
+          npm i 
+          npm run build
 
       # 推送
       - name: 推送
