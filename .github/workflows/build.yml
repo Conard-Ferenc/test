@@ -33,7 +33,7 @@ jobs:
         env:
           REF: github.com/Conard-Ferenc/test.git
         run:
-          - cd docs/.vitepress/dist #进入_book目录
+          - cd ./docs/.vitepress/dist #进入_book目录
           - git init
           - git remote add origin https://$REF #设置要托管到的仓库名
           - git add . #添加_book目录下的所有文件
